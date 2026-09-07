@@ -13,6 +13,6 @@ while left <= right:
     else:
         result[pos] = nums[right] ** 2
         right -= 1
-        pos -= 1
+    pos -= 1
         
 print(result)
